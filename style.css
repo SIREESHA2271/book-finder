@@ -1,25 +1,15 @@
 
-    img{
-        top: 0px;
-        left: 0px;
-        position: absolute;
-        z-index: -5;
-        height: 100%;
-        width: 100%;
-        opacity: 0.5;
-        object-fit: fill;
+    body{
+    background-color: rgb(92, 85, 85);
     }
-    /* body{
-        background: url('https://images.unsplash.com/photo-1535058314881-56b6eb96bd69?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTZ8fGJvb2tzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60') no-repeat center center/cover;
-    } */
         /* label focus color */
     .input-field input:focus, label {
-        color: black !important;
+        color: rgb(255, 255, 255) !important;
     }
         /* label underline focus color */
     .input-field input:focus {
-        border-bottom: 1px solid black !important;
-        box-shadow: 0 1px 0 0 black !important
+        border-bottom: 1px solid white !important;
+        box-shadow: 0 1px 0 0 white !important
     }
 
 #dynamic{
