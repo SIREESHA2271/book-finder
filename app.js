@@ -17,7 +17,7 @@
             console.log(response);
             for(var i = 0; i<response.items.length; i++){
                 document.getElementById('result').innerHTML+='<h4>'+response.items[i].volumeInfo.title+'</h4>'+
-                '<h5>By: '+response.items[i].volumeInfo.authors+'</h5><br><img class = "card z-depth-10" id="dynamic" src =' + response.items[i].volumeInfo.imageLinks.thumbnail + '><br><a href =' + response.items[i].volumeInfo.infoLink + '><button class="btn black">Read More</button></a>';
+                '<h5>By: '+response.items[i].volumeInfo.authors+'</h5><br><img class = "card z-depth-10" id="dynamic" src =' + response.items[i].volumeInfo.imageLinks.thumbnail + '><br><a href =' + response.items[i].volumeInfo.infoLink + '><button class="btn black" >Read More</button></a>';
             }
         });
         
